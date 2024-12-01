@@ -9,56 +9,41 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+🎓Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **Undergraduate Student**, School of Information Science and Engineering, Shandong University (2022 - Present)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+🏅Scholarship
+======
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **National Scholarship** (2023)
+- **First-Class** Outstanding Student Award (2024)
+- **Outstanding Student** of Shandong University (2024)
+- **First-Class** Outstanding Student Award (2023)
+- **Outstanding Student** of Shandong University (2023)
+- Education Development Foundation Scholarship (2023)
 
-Publications
+🏆Competitions
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+
+- **First Prize**, National Undergraduate Intelligent Vehicle Competition (Shandong, 2024)
+- **First Prize**, “TI Cup” Shandong Provincial Undergraduate Electronic Design Contest (2024)
+- **Honorable Mention**, Mathematical Contest in Modeling (2024)
+- **Second Prize**, Contemporary Undergraduate Mathematical Contest in Modeling (Shandong Province, 2023)
+- **Third Prize**, Contemporary Undergraduate Mathematical Contest in Modeling (Shandong Province, 2024)
+
+💼Student Affairs
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+
+- **Class Monitor** (2022-2023)
+- **Class Monitor** (2024-2025)
+- **Deputy Director**, Integrated Media Center of the School of Information Science and Engineering, Shandong University (2024-2025)
+- **Assistant** to the College Counselor(2022-2023)
+- **Photographer**, New Media Center of Shandong University (2023-2024)
+
+📷Hobbies
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+- Photography (Contributor Photographer at Visual China Group)
+- Traveling
