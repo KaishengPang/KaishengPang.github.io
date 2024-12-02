@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Contact"
+title: "📧Contact Information"
 permalink: /contact/
 author_profile: true
 redirect_from:
@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-📧Contact Information
-======
+
 
 **School of Information Science and Engineering**
 
