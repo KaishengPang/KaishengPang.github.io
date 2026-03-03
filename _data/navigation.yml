@@ -1,0 +1,19 @@
+# main links
+main:
+  - title: "About"
+    url: "/#about-me"
+
+  - title: "Education"
+    url: "/#education"
+
+  - title: "News"
+    url: "/#news"
+
+  - title: "Publications"
+    url: "/#publications"
+
+  - title: "Selected Honors"
+    url: "/#selected-honors"
+
+  - title: "Contact"
+    url: "/#contact"

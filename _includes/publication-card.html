@@ -1,0 +1,27 @@
+{% assign pub = include.pub %}
+<div class='paper-box'><div class='paper-box-image'><div>{% if pub.badge %}<div class="badge">{{ pub.badge }}</div>{% endif %}<img src='{{ pub.image }}' alt="{{ pub.title | escape }}" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+{% if pub.title_url %}[{{ pub.title }}]({{ pub.title_url }}){% else %}{{ pub.title }}{% endif %}
+
+{% for author in pub.authors %}{% if author.url %}{% if author.me %}[**{{ author.name }}**]({{ author.url }}){% else %}[{{ author.name }}]({{ author.url }}){% endif %}{% else %}{% if author.me %}**{{ author.name }}**{% else %}{{ author.name }}{% endif %}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+
+{% if pub.venue %}*{{ pub.venue }}{% if pub.year %} {{ pub.year }}{% endif %}*{% endif %}
+{% if pub.summary %}- {{ pub.summary }}{% endif %}
+{% assign paper_link = nil %}
+{% if pub.links and pub.links.paper %}
+{% assign paper_link = pub.links.paper %}
+{% elsif pub.title_url %}
+{% assign paper_link = pub.title_url %}
+{% endif %}
+{% assign has_any_link = false %}
+{% if paper_link or (pub.links and (pub.links.arxiv or pub.links.code)) %}
+{% assign has_any_link = true %}
+{% endif %}
+{% if has_any_link %}
+<p>
+{% if paper_link %}<a href="{{ paper_link }}"><i class="fas fa-file-alt" aria-hidden="true"></i> <strong>Paper</strong></a>{% endif %}{% if pub.links and pub.links.arxiv %}{% if paper_link %} · {% endif %}<a href="{{ pub.links.arxiv }}"><i class="ai ai-arxiv" aria-hidden="true"></i> <strong>arXiv</strong></a>{% endif %}{% if pub.links and pub.links.code %}{% if paper_link or pub.links.arxiv %} · {% endif %}<a href="{{ pub.links.code }}"><i class="fas fa-code" aria-hidden="true"></i> <strong>Code</strong></a>{% endif %}
+</p>
+{% endif %}
+</div>
+</div>
