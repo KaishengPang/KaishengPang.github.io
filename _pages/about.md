@@ -17,7 +17,7 @@ My research focuses on Embodied AI 🤖 and computer vision 🌍.
 <span class='anchor' id='education'></span>
 # 🎓 Education
 - 2022-2026: **Shandong University**, Undergraduate, Electronic Science and Technology
-- 2026-2028: **HKUST(GZ)**, Mphil
+- 2026-2028: **HKUST(GZ)**, MPhil
 
 <span class='anchor' id='news'></span>
 # 📰 News
