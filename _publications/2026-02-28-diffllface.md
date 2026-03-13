@@ -23,7 +23,7 @@ authors:
     url: "https://vsislab.github.io/Weizhang/"
 summary: "Efficient and robust low-light face super-resolution via diffusion-based adaptation."
 links:
-  paper: 
+  paper: "https://ieeexplore.ieee.org/document/11433197"
   arxiv:
   code: "https://github.com/KaishengPang/DiffLLFace"
 ---
