@@ -10,14 +10,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am **Kaisheng Pang (庞开升)**, an undergraduate student in **Electronic Science and Technology (School-level Experimental Class)** at Shandong University. I am currently an undergraduate research assistant supervised by Professor [Runmin Cong](https://rmcong.github.io/) in the [Multimedia and Vision Processing Group (MVP Lab)](https://rmcong.github.io/MVPLab.html), with additional guidance from Associate Professor [Feng Li](https://lifengcs.github.io/). I will begin my MPhil study at **HKUST(GZ)** in 2026.
+I am **Kaisheng Pang (庞开升)**, a Red Bird MPhil student in **Robotics and Autonomous Systems (ROAS)** at **HKUST(GZ)**, supervised by Professor [Haoang Li](https://sites.google.com/view/haoangli/homepage). During my undergraduate studies, I was advised by Professor [Runmin Cong](https://rmcong.github.io/) and Associate Professor [Feng Li](https://lifengcs.github.io/).
 
-My research focuses on Embodied AI 🤖 and computer vision 🌍.
+My research interests lie in embodied AI 🤖 and computer vision 🌍.
 
 <span class='anchor' id='education'></span>
 # 🎓 Education
+- 2026-Present: **HKUST(GZ)**, Red Bird MPhil, Robotics and Autonomous Systems (ROAS)
 - 2022-2026: **Shandong University**, Undergraduate, Electronic Science and Technology
-- 2026-2028: **HKUST(GZ)**, MPhil
 
 <span class='anchor' id='news'></span>
 # 📰 News
@@ -46,4 +46,4 @@ No publications yet.
 
 <span class='anchor' id='contact'></span>
 # 📬 Contact
-- Email: [kaishengpang@mail.sdu.edu.cn](mailto:kaishengpang@mail.sdu.edu.cn)
+- Email: [kaisheng.pang@connect.hkust-gz.edu.cn](mailto:kaisheng.pang@connect.hkust-gz.edu.cn) or [kspang.hkust@gmail.com](mailto:kspang.hkust@gmail.com)

@@ -22,12 +22,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Kaisheng Pang"
   avatar           : "images/pks.png"
-  bio              : "Undergraduate Student at Shandong University"
-  location         : "Qingdao, Shandong"
-  employer         : "Shandong University"
+  bio              : "Red Bird MPhil Student at HKUST(GZ)"
+  location         : "Guangzhou, China"
+  employer         : "HKUST(GZ)"
   pubmed           :
   googlescholar    :  # e.g., "https://scholar.google.com/citations?user=YOUR_ID"
-  email            : "kaishengpang@mail.sdu.edu.cn"
+  email            : "kaisheng.pang@connect.hkust-gz.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   cv               :  
