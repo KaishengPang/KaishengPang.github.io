@@ -1,0 +1,18 @@
+<section class="intro-scene" aria-label="About Kaisheng Pang">
+  <picture class="intro-scene__background" aria-hidden="true">
+    <source type="image/avif"
+      srcset="{{ '/images/home-intro-1280.avif' | relative_url }} 1280w, {{ '/images/home-intro-2560.avif' | relative_url }} 2560w"
+      sizes="(max-width: 924px) 1100px, 100vw">
+    <source type="image/webp"
+      srcset="{{ '/images/home-intro-1280.webp' | relative_url }} 1280w, {{ '/images/home-intro-2560.webp' | relative_url }} 2560w"
+      sizes="(max-width: 924px) 1100px, 100vw">
+    <img src="{{ '/images/home-intro.jpg' | relative_url }}" width="2560" height="1707"
+      alt="" fetchpriority="high" decoding="async">
+  </picture>
+  <div class="intro-surface">
+    <div class="sidebar">
+      {% include author-profile.html %}
+    </div>
+    <div class="intro-copy page__content">{{ include.intro }}</div>
+  </div>
+</section>

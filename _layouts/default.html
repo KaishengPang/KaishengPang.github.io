@@ -14,17 +14,30 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main" role="main">
-      {% include sidebar.html %}
+    {% if page.intro_hero %}
+      {% assign home_sections = content | split: '<!-- intro-end -->' %}
+    {% endif %}
+    <div id="main" role="main"{% if page.intro_hero %} class="home-with-intro"{% endif %}>
+      {% if page.intro_hero %}
+        {% include home-intro.html intro=home_sections.first %}
+        <div class="home-body">
+      {% else %}
+        {% include sidebar.html %}
+      {% endif %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
-            {{ content }}
+            {% if page.intro_hero %}
+              {{ home_sections.last }}
+            {% else %}
+              {{ content }}
+            {% endif %}
           </section>
         </div>
       </article>
+      {% if page.intro_hero %}</div>{% endif %}
     </div>
 
     {% include scripts.html %}

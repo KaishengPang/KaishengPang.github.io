@@ -1,0 +1,129 @@
+/* Homepage introduction: the photograph ends before Publications. */
+#main.home-with-intro {
+  max-width: none;
+  margin-top: 0;
+  padding: 0;
+  animation: none;
+}
+
+.intro-scene {
+  position: relative;
+  isolation: isolate;
+  padding: 46px 32px 54px;
+  background: #eef0ee;
+
+  &__background {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    opacity: .46;
+    pointer-events: none;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 52%;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.04) 72%, rgba(255,255,255,.44));
+  }
+}
+
+.intro-surface {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  gap: 38px;
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 32px;
+  border: 1px solid rgba(255,255,255,.95);
+  border-radius: 20px;
+  background: rgba(255,255,255,.84);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  box-shadow: 0 22px 52px -16px rgba(24,40,39,.26), 0 3px 12px rgba(24,40,39,.06);
+
+  .sidebar {
+    float: none;
+    width: auto;
+    margin: 0;
+    padding: 0 22px 0 0;
+    border-right: 1px solid rgba(84,103,103,.14);
+    transform: none;
+  }
+
+  .author__avatar img {
+    background: rgba(255,255,255,.65);
+    box-shadow: 0 5px 18px rgba(38,57,55,.10);
+  }
+}
+
+.intro-copy {
+  min-width: 0;
+
+  > p:first-child { margin: 0; height: 0; }
+  // Offset the existing smooth-scroll target below the sticky masthead.
+  #about-me { display: block; position: relative; top: -64px; margin: 0; }
+  #about-me::before { display: none; }
+  > ul:last-child { margin-bottom: 0; }
+  h1 { border-bottom-color: rgba(84,103,103,.16); }
+}
+
+.home-body {
+  @include clearfix;
+  width: calc(100% - 64px);
+  max-width: 1216px;
+  margin: 30px auto 0;
+  padding: 0 32px;
+
+  // The profile now lives in the hero; no sidebar space is needed here.
+  > .page {
+    display: flow-root;
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 924px) {
+  .home-body { width: calc(100% - 40px); padding: 0 26px; }
+  .intro-scene { padding: 28px 20px 36px; }
+  .intro-surface {
+    grid-template-columns: 1fr;
+    gap: 26px;
+    padding: 26px;
+
+    .sidebar { padding: 0 0 22px; border-right: 0; border-bottom: 1px solid rgba(84,103,103,.14); }
+    .author__avatar { flex: 0 0 75px; }
+    .author__urls_sm { font-size: 1.3em; }
+  }
+}
+
+@media (max-width: 540px) {
+  .intro-scene { padding: 20px 12px 28px; }
+  .intro-surface {
+    padding: 20px;
+    border-radius: 16px;
+    gap: 20px;
+
+    .profile_box { flex-wrap: wrap; gap: 12px; }
+    .author__content { flex: 1; padding-left: 0; }
+    .author__urls-wrapper { margin-left: 0; }
+  }
+  .home-body { width: calc(100% - 24px); margin-top: 16px; padding: 0 20px; }
+}
+
+@media print {
+  .intro-scene { padding: 0; background: none; }
+  .intro-scene__background, .intro-scene::after { display: none; }
+  .intro-surface { background: none; border: 0; box-shadow: none; backdrop-filter: none; }
+}

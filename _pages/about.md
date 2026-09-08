@@ -3,6 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+intro_hero: true
 redirect_from: 
   - /about/
   - /about.html
@@ -22,6 +23,8 @@ My research interests lie in embodied AI 🤖 and computer vision 🌍.
 <span class='anchor' id='news'></span>
 # 📰 News
 - *2026.2*: DiffLLFace is accepted by **TIP 2026**.
+
+<!-- intro-end -->
 
 <span class='anchor' id='publications'></span>
 # 📚 Publications
