@@ -15,12 +15,12 @@
 {% assign paper_link = pub.title_url %}
 {% endif %}
 {% assign has_any_link = false %}
-{% if paper_link or (pub.links and (pub.links.arxiv or pub.links.code)) %}
+{% if paper_link or (pub.links and (pub.links.arxiv or pub.links.code or pub.links.homepage)) %}
 {% assign has_any_link = true %}
 {% endif %}
 {% if has_any_link %}
 <p>
-{% if paper_link %}<a href="{{ paper_link }}"><i class="fas fa-file-alt" aria-hidden="true"></i> <strong>Paper</strong></a>{% endif %}{% if pub.links and pub.links.arxiv %}{% if paper_link %} · {% endif %}<a href="{{ pub.links.arxiv }}"><i class="ai ai-arxiv" aria-hidden="true"></i> <strong>arXiv</strong></a>{% endif %}{% if pub.links and pub.links.code %}{% if paper_link or pub.links.arxiv %} · {% endif %}<a href="{{ pub.links.code }}"><i class="fas fa-code" aria-hidden="true"></i> <strong>Code</strong></a>{% endif %}
+{% if paper_link %}<a href="{{ paper_link }}"><i class="fas fa-file-alt" aria-hidden="true"></i> <strong>Paper</strong></a>{% endif %}{% if pub.links and pub.links.arxiv %}{% if paper_link %} · {% endif %}<a href="{{ pub.links.arxiv }}"><i class="ai ai-arxiv" aria-hidden="true"></i> <strong>arXiv</strong></a>{% endif %}{% if pub.links and pub.links.code %}{% if paper_link or pub.links.arxiv %} · {% endif %}<a href="{{ pub.links.code }}"><i class="fas fa-code" aria-hidden="true"></i> <strong>Code</strong></a>{% endif %}{% if pub.links and pub.links.homepage %}{% if paper_link or pub.links.arxiv or pub.links.code %} · {% endif %}<a href="{{ pub.links.homepage }}"><i class="fas fa-home" aria-hidden="true"></i> <strong>Homepage</strong></a>{% endif %}
 </p>
 {% endif %}
 </div>

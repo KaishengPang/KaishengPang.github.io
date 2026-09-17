@@ -2,6 +2,7 @@
 title: "DiffLLFace: Learning Alternate Illumination-Diffusion Adaption for Low-Light Face Super-Resolution and Beyond"
 title_url:
 date: 2026-02-28
+display_order: 1
 badge: "TIP 2026"
 venue: "IEEE Transactions on Image Processing (CCF-A, JCR Q1)"
 year: 2026

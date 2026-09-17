@@ -22,6 +22,7 @@ My research interests lie in embodied AI 🤖 and computer vision 🌍.
 
 <span class='anchor' id='news'></span>
 # 📰 News
+- *2026.9*: Our **ActiveScale** preprint is now available. [[Project Page](https://active-scale.github.io/)]
 - *2026.2*: DiffLLFace is accepted by **TIP 2026**.
 
 <!-- intro-end -->
@@ -31,7 +32,7 @@ My research interests lie in embodied AI 🤖 and computer vision 🌍.
 
 \# indicates co-first author.
 
-{% assign publications = site.publications | sort: "date" | reverse %}
+{% assign publications = site.publications | sort: "display_order" %}
 {% if publications.size > 0 %}
 {% for pub in publications %}
 {% include publication-card.html pub=pub %}
@@ -43,7 +44,8 @@ No publications yet.
 <span class='anchor' id='selected-honors'></span>
 # 🎖️ Selected Honors
 - National Scholarship
-- Qingdao Top 1,000 Outstanding College Students
+- Outstanding Graduate of Shandong University
+- Outstanding Graduation Project of Shandong University
 - First-Class Outstanding Student Award (twice)
 - Outstanding Student of Shandong University (twice)
 
