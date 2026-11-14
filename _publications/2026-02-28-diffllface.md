@@ -11,6 +11,7 @@ authors:
   - name: "Runmin Cong#"
     url: "https://rmcong.github.io/"
   - name: "Kaisheng Pang#"
+    url: "https://kaishengpang.github.io/"
     me: true
   - name: "Feng Li"
     url: "https://lifengcs.github.io/"
