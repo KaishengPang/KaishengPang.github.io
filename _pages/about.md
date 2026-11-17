@@ -22,6 +22,7 @@ My research interests lie in embodied AI 🤖 and computer vision 🌍.
 
 <span class='anchor' id='news'></span>
 # 📰 News
+- *2026.11*: Our **MrLIE** paper is now available. [[Paper](https://arxiv.org/abs/2611.19285)]
 - *2026.9*: Our **ActiveScale** preprint is now available. [[Project Page](https://active-scale.github.io/)]
 - *2026.2*: DiffLLFace is accepted by **TIP 2026**.
 
