@@ -11,7 +11,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am **Kaisheng Pang (庞开升)**, a Red Bird MPhil student in **Robotics and Autonomous Systems (ROAS)** at **HKUST(GZ)**, supervised by Professor [Haoang Li](https://sites.google.com/view/haoangli/homepage). During my undergraduate studies, I was advised by Professor [Runmin Cong](https://rmcong.github.io/) and Associate Professor [Feng Li](https://lifengcs.github.io/).
+I am **Kaisheng Pang (庞开升)**, a Red Bird MPhil student in **Robotics and Autonomous Systems (ROAS)** at **HKUST(GZ)**, supervised by Professor [Haoang Li](https://sites.google.com/view/haoangli/homepage). I also work closely with [Wenxuan Song](https://songwxuan.github.io/). During my undergraduate studies, I was advised by Professor [Runmin Cong](https://rmcong.github.io/) and Associate Professor [Feng Li](https://lifengcs.github.io/).
 
 My research interests lie in embodied AI 🤖 and computer vision 🌍.
 

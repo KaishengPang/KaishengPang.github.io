@@ -1,6 +1,6 @@
 ---
 title: "ActiveScale: Scaling Active Perception for Robots across Model, Data, and Hardware"
-title_url: "https://active-scale.github.io/"
+title_url:
 date: 2026-09-16
 display_order: 3
 badge: "Under Review"
